@@ -2,4 +2,4 @@ this is git learning session
 this is git learning session 2
 B.Kuppusamy
 B.Sc., Mathematics
-Use kit hub
+Use git hub
