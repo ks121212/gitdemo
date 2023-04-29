@@ -1,0 +1,21 @@
+//1.q 
+var arr=[{"name":"Adam Markaram","age":"29"},{"name":"Albie Morkel","age":"37"}];
+for(var i=0;i<arr.length;i++){
+    for(var a in arr[i]){
+        console.log(a,arr[i][a]);
+    }
+}
+//2.q
+var resume={
+    "name":"gilbut joe",
+    "father name":"hendry joe",
+    "Mother name":"mary joe",
+    "D.O.B":"23.04.2000",
+    "Gender":"Male",
+    "Eduction":"B.Sc., Mathematics",
+    "Experience":"2 years",
+
+
+};
+
+//3.q

@@ -1,0 +1,29 @@
+body{
+   background-color: darkgrey;
+}
+
+.dataAll{
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 10px;
+}
+.dataAll .image img{
+   justify-content: center;
+   height:25%;
+   width: 25%;
+}
+.area{
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
+input{
+   width:30%;
+   height: 30px;
+}
+button{
+   height: 30px;
+   width:120px
+}
+h4{
+   margin-top: 40px;
+}

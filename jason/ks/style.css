@@ -1,0 +1,37 @@
+.body{
+    width: 100%;
+    padding-left: 5px ;
+}
+.container{
+    background-color: rgb(212, 202, 219);
+    max-width: 2000px;
+    height: 1000px;
+}
+button{
+    width: 42%;
+    height: 6%;
+    background-color: aquamarine;
+}
+table,thead,tbody{
+    width: 100%;
+    broder:2px solid black;
+}
+tr,tr1{
+    border: 3px solid black;
+    text-align: center;
+}
+#radio{
+    cursor: pointer;
+}
+input[type="text"]{
+    width:75%;
+}
+input[type="radio"]{
+    margin-left: 10px;
+}
+span{
+margin-left: 5px;
+}
+h2{
+    color:lightgoldenrodyellow
+}
