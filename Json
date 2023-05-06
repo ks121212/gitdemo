@@ -4,17 +4,29 @@ for(var i=0;i<arr.length;i++){
     for(var a in arr[i]){
         console.log(a,arr[i][a]);
     }
+    for(var a of arr[i]){
+        console.log(a);
+    }
 }
+    arr.forEach((ele)=>console.log(ele));
+
+
 //2.q
 var resume={
-    "name":"gilbut joe",
-    "father name":"hendry joe",
-    "Mother name":"mary joe",
-    "D.O.B":"23.04.2000",
-    "Gender":"Male",
-    "Eduction":"B.Sc., Mathematics",
-    "Experience":"2 years",
-
+       "name":"Kuppusamy B",
+"father name":"Balamaniyan C",
+"mother name":"Selvi B",
+     "mobile":"7860664357",
+     "e-mail":"kuppussamy@gmail.com",
+  "objective":"To Secure a career opportunity which completely untilise my skills and talent",
+      "Y.O.P":"2020",
+     "degree":"B.sc.,Mathematics",
+  "institute":"Salem Sowdeswari College",
+ "percentage":"70%",
+"tech skills":"JavaScript,MS office,C",
+    "stregth":"I like to learn new things and easily adobted in every games and sports and studies also",
+    "hobbies":"I like to play Cricet and Vollyball and traveling is most favourite",
+                
 
 };
 
