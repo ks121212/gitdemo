@@ -1,0 +1,18 @@
+DOCUMENT OBJECT:
+The Document interface represents any web page loaded in the browser and server as an entry point into the web pages content, which is the DOM-tree.
+
+The DOM-tree includes elements such as <body> and <table> among many other. It provides functionality globally to the document, like how ro obtain the pages URL and create new elements in the document.
+
+Document depending pages(ie.HTML,XML)
+EventTarget->Node->Document
+
+
+WINDOW:
+The Window interface a window containing a DOM document, 
+the document property points to the DOM document loaded in window.
+
+A window for a given document can be obtained using the document.defultview property.
+
+A golbal variable, window repersenting the window in which the script is running is eposed to JavaScript code.
+EventTarget->window.
+

@@ -1,0 +1,22 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+       
+Answer: 
+•	The first usable version of HTTP was created in 1997 HTTP 1.1
+•	This version is still in use on the web in 2015.
+•	 HTTP 2 is much faster and more efficient than HTTP 1.1 .
+•	When HTTP 2 mush faster and effective more than HTTP 1.1 loading process.
+
+2.Write a blog about objects and its internal representation in Javascript
+
+Answer: 
+•	Objects are important data types in javascript.
+•	Objects are different than primitive datatypes (i.e. number, string, Boolean, etc.)
+•	Objects are a structure of keyname:Value pair.
+•	Syntax: var Objectname=(Keyname:Value);
+•	A Object can 2 methods
+	DOT METHOD(.)
+	BOX METHOD[“”]
+•	A  Object uses of 
+	Insertion
+	Updation
+	Deletion
