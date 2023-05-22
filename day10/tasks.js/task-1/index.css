@@ -1,0 +1,18 @@
+.a:visited{
+    color: greenyellow;
+}
+.a:link{
+    color: green;
+}
+.a1:visited{
+    color: red;
+}
+.a1:link{
+    color: pink;
+}
+.a2:visited{
+    color: black;
+}
+.a2:link{
+    color: darkgoldenrod;
+}

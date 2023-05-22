@@ -1,0 +1,16 @@
+#par{
+    color: red;
+    background-color: yellow;
+   }
+   #par1{
+    color: blue;
+   }
+   #par2{
+    color: green;
+   }
+   .italic{
+    font-style: italic;
+   }
+   .bold{
+    font-weight: bolder;
+   }

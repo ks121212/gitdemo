@@ -1,0 +1,32 @@
+a:hover{
+    text-decoration: none;
+    background-color: yellow;
+    color: red;
+}
+ /* a[title]:hover::after{
+    background-color:blueviolet;
+    color: black;
+    visibility: visible;
+    z-index: 1;
+    content: attr(title);
+    padding: 5px 10px;
+    transform: translateX(-50%);
+    position: absolute;
+    transform: translateY(-75%);
+
+} */
+.button:active{
+    box-shadow: none;
+    color: black;
+    background-color: aqua;
+}
+a:active{
+    text-decoration: underline;
+    color: green;
+}
+a:visited{
+    color: crimson;
+}
+a:link{
+    color: rgb(9, 170, 170);
+}
