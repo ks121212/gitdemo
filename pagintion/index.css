@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    color: white;
+    letter-spacing: 1.5px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+#result{
+    margin-left: 25%;
+    margin-top: 4%;
+}
+.table-bordered{
+    text-align: center;
+    width: 75%;
+}
+.footer{
+    margin-top: 25px;
+    font-size: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+button{
+    padding: 7px 15px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+button.active,button:hover{
+    background: linear-gradient(to button #9c9c9c 0%,#111 100%);
+}
