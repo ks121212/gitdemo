@@ -1,9 +1,14 @@
 async function getdata(){
+  
  let brand=document.getElementById("brand").value;
-  let res=await fetch(`http://makeup-api.herokuapp.com/api/v1/products.json?brand=${brand}`);
+ try{
+ let res=await fetch(`https://makeup-api.herokuapp.com/api/v1/products.json?brand=${brand}`);
  let data=await res.json();
-  console.log(data);
+ console.log(data);
   getAllData(data);
+}catch(error){
+  console.error(error);
+}
   }
   function getAllData(datas){
     document.body.style.background="none";
@@ -16,18 +21,16 @@ async function getdata(){
       element1.classList.add("dataAll");
       element1.innerHTML=`<div class="container">
           <div class="all">
-        <center><div class="image">
+        <div class="image">
           <img src="${image_link}"></img>
         </div>
       <h1>${brand}</h1>
     <h2>${name}</h2>
     <h3>${price}</h3>
     <p>${description}</p>
-    <p><a href="${website_link}">${website_link}></a></p></center>
+    <p><a href="${website_link}">${website_link}></a></p>
            </div>
          </div>`
       results.appendChild(element1);
     });
   }
-
-  getdata();
