@@ -22,13 +22,13 @@ async function getdata(){
       element1.innerHTML=`<div class="container">
           <div class="all">
         <div class="image">
-          <img src="${image_link}"></img>
+         <center><img src="${image_link}"></img>
         </div>
       <h1>${brand}</h1>
     <h2>${name}</h2>
     <h3>${price}</h3>
     <p>${description}</p>
-    <p><a href="${website_link}">${website_link}></a></p>
+    <p><a href="${website_link}">${website_link}></a></p></center>
            </div>
          </div>`
       results.appendChild(element1);
