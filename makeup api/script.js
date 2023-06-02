@@ -29,3 +29,5 @@ async function getdata(){
       results.appendChild(element1);
     });
   }
+
+  getdata();
