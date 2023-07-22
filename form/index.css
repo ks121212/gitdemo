@@ -1,4 +1,10 @@
 
+#form{
+  margin: 10px;
+  padding: 30px;
+  background-color: lightseagreen;
+
+}
 .checked {
     color: orange;
   }
@@ -11,14 +17,15 @@
     width: 380px;
  }
  th,td{
+ 
    margin-right: 10px;
   padding: 10px 20px; 
   justify-content: space-evenly;
  }
-.comment-box input{
-  width: 100%;
-  padding: 10px;
-  background-color: lightgrey;
-  border: 2px solid black;
-  height: 100px;
+#comment:hover{
+  background-color: blanchedalmond;
+}
+.btn:hover{
+  background-color: lightgreen;
+  color:black;
 }

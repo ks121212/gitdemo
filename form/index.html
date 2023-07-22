@@ -10,7 +10,7 @@
     <title>Form-Page</title>
 </head>
 <body>
-    <form action="">
+    <form id="form">
         <label for="Name"><b>Name</b></label><br>
         <input type="text" name="first" id="first" placeholder="first">
         <input type="text" name="last" id="last" placeholder="last"><br>
@@ -104,9 +104,9 @@
         </table><br><br>
         <b>Additional comments or suggestions</b><br>
         <div class="comment-box">
-            <input type="text" name="comment-box" id="comment">
+           <textarea  id="comment" cols="170" rows="4"></textarea>
         </div><br><br>
-       <input type="Submit" value="Submit">
+       <button class="btn btn-secondary">Submit</button>
     </form>
 </body>
 </html>
