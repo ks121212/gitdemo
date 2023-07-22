@@ -2,3 +2,24 @@
     background-color: darkslateblue;
     color: white;
 }
+
+.container{
+    border: 1px solid black;
+}
+
+.card{
+    width: 75%;
+    height: 100px;
+    
+}
+.wid{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-body{
+    background-color: #6a6a6a;
+    border-radius: 10px;
+}
+.form-control{
+    background-color: #6a6a6a;
+}
