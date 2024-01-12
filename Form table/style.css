@@ -1,0 +1,17 @@
+.container{
+    background-color: lightgreen ;
+    margin: 10px 111px;
+    padding: 30px;
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+}
+button{
+    background-color:rgb(1, 141, 255);
+    border-radius: 5px;
+    color: whitesmoke;
+}
+table{
+    display: flex;
+    
+}

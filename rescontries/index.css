@@ -1,0 +1,22 @@
+.card{
+    width: 18rem;
+    margin: 10px;
+    display: flex;
+ }
+.card-title{
+ padding: 10px;
+ text-align: center;
+ background-color: black ;
+ color: aliceblue;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card-img-top .image{
+ justify-content: center;
+ align-items: center;
+ width: 175px;
+ height: 75px;
+}
+.card-text{
+    text-align:center;
+    font-weight: bold;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURD</title>
+</head>
+<body>
+    <!-- Create a new post -->
+    <h2>CREATE POST</h2>
+    <form id="create-post-form">
+        <label for="titile">Title:</label>
+        <input type="text" id="title" required>
+        <br>
+        <br>
+        <label for="body">Body:</label>
+        <textarea  id="body" required></textarea>
+        <br>
+        <br>
+        <button type="submit">Create Post</button>
+
+        <table id="posts">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Body</th>
+                </tr>
+            </thead>
+        </table>
+
+        <script src="script.js"></script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+           
+            
+            width: fit-content;
+            padding: 20px;
+            border: 1px solid black;
+            background-color: blueviolet;
+            border-radius: 5px;
+        }
+        .form-group{
+            padding:10px;
+            margin-bottom: 10px;
+        }
+        .result{
+            font-weight: bolder;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-group">
+            <label for="num1">Number:1</label>
+            <input type="number" name="number" id="num1">
+        </div>
+        <div class="form-group">
+            <label for="num2">Number:2</label>
+            <input type="number" name="number" id="num2">
+        </div>
+        <div class="form-group">
+            <button onclick="performCaculation('Add')">Add</button>
+            <button onclick="performCaculation('Subtract')">Subtract</button>
+            <button onclick="performCaculation('Multiply')">Multiply</button>
+            <button onclick="performCaculation('Divide')">Divide</button>
+        </div>
+
+        
+    </div>
+
+    <div class="result">
+        Result: <span id="finalresult"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

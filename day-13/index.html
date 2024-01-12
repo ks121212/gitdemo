@@ -8,26 +8,22 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <div id="firstdiv">
-
-    </div>
-     <div id="seconddiv">
-
-     </div> -->
+    <div id="myDiv"></div>
     <script>
-        //create a paragraph element
-        // let paragraph=document.createElement("p");
-        // paragraph.textContent=`This is a dynamically created paragraph element`;
-        // document.body.appendChild(paragraph)
-        // let header=document.createElement("h1");
-        // header.textContent=`Dynamic Header`;
-        // document.body.appendChild(header);
-        // document.getElementById("firstdiv").append(header,paragraph)
-        // let link=document.createElement('a');
-        // link.href=`https//www.google.co.in`
-        // link.textContent=`Visit Google.com`;
-        // document.getElementById("seconddiv").appendChild(link);
+        const newElement= document.createElement('p');
+        newElement.setAttribute('class','myClass');
+        newElement.setAttribute('id','myParagrph');
+        newElement.innerText='Hello world!! B49 WD Batch';
+
+        const nextElement=document.createElement('a');
+        nextElement.setAttribute('href','www.google.in');
+        nextElement.innerText='Google.in'
+
+        const existingElement=document.getElementById('myDiv');
+
+        existingElement.append(newElement,nextElement);
     </script>
+   
 </body>
 <!-- <script>
     //create a paragraph element

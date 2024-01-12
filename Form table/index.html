@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Form-Table</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="body">
+            <div class="row">
+               <div class="col-md-6">
+                <form id="form">
+                <h2>FORM SUBMISSION</h2>
+                <label for="first">FirstName</label><br>
+                   <input type="text" name="firstname" id="first" placeholder="Enter Your FirstName"><br>
+                <label for="last">LastName</label><br>
+                  <input type="text" name="lastname" id="last" placeholder="Enter Your LastName"><br>
+                <label for="address">Address</label><br>
+                  <input type="text" name="address" id="address" placeholder="Enter Your address"><br>
+                <label for="pincode">Pincode</label><br>
+                  <input type="text" name="pincode" id="pincode" placeholder="Enter Your Pincode">
+                  <br><br>
+                  <input type="radio" name="gender" id="Gender"  value="Male"><span id="Show">Male</span>
+                  <input type="radio" name="gender" id="Gender"  value="Female"><span id="showResult">Female</span><br>
+                  <h5>must choose at least 2 out of 5 options</h5> <br>
+                  <label for="north"><input type="checkbox" id="north" name="food[]" value="North Indian"> North Indian</label><br>
+                  <label for="south"><input type="checkbox" id="south" name="food[]" value="South Indian"> South Indian</label><br>
+                  <label for="china"><input type="checkbox" id="china" name="food[]" value="Chinese"> Chinese</label><br>
+                  <label for="japan"><input type="checkbox" id="japan" name="food[]" value="Japanese"> Japanese</label><br>
+                  <label for="sea"><input type="checkbox" id="sea"  name="food[]"value="Sea Food"> Sea Food</label><br>
+                  
+                  <label for="state">State</label><br>
+                  <input type="text" name="state" id="state"><br>
+                  <label for="country">Country</label><br>
+                  <input type="text" name="country" id="country"><br><br>
+                  <button onclick="getSubmit()">submit</button>
+                 
+                </form>
+               </div>
+               <div class="col-md-6">
+                  <h2>TEMPORARY DATABASE</h2>
+                     <div class="col-sm-12 d-flex ">
+                  <table class="table table-dark">
+                    <tr>
+                        <th>FirstName</th>
+                        <th>LastName</th>
+                        <th>Address</th>
+                        <th>Pincode</th>
+                        <th>Gender</th>
+                        <th>Options</th>
+                        <th>State</th>
+                        <th>Country</th>
+                    </tr>
+                    <tbody class="table table-striped" id="tbody">
+                     
+                    </tbody>
+                  </table>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
